@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <div className="flex rounded-md justify-between pr-2 pl-4 mt-0 shadow-md bg-color bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 h-16 hidden md:flex bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
+      <div className="flex rounded-md justify-between pr-2 pl-4 mt-0 shadow-md bg-color bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 h-16 hidden md:flex bg-gradient-to-r from-blue-400 via-blue-400 to-blue-400">
         <div className="flex items-center">
         <Link to="/"><img className="w-40 mr-2 color-white" src={sharingon} alt="" /></Link>  
         </div>
