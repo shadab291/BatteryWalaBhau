@@ -9,6 +9,7 @@ import ContactsIcon from "@mui/icons-material/Contacts";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
+import DeveloperBadge from '../Components/DeveloperBadge'; // Import the DeveloperBadge component
 
 function Footer() {
   return (
@@ -64,17 +65,22 @@ function Footer() {
           <div className="footer-section">
             <h2 className="text-lg font-bold mb-3">Social Media</h2>
             <div className="flex items-center">
-              <a href="https://www.facebook.com/" className="mr-3 text-gray-600 hover:text-blue-500 transition-colors duration-300">
+              <a href="https://www.facebook.com/profile.php?id=61556464873898&sk=about" className="mr-3 text-gray-600 hover:text-blue-500 transition-colors duration-300">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
-              <a href="https://www.instagram.com/" className="mr-3 text-gray-600 hover:text-pink-500 transition-colors duration-300">
+              <a href="https://www.instagram.com/batterywalabhau/" className="mr-3 text-gray-600 hover:text-pink-500 transition-colors duration-300">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
-              <a href="https://www.linkedin.com/" className="text-gray-600 hover:text-blue-700 transition-colors duration-300">
+              <a href="https://www.linkedin.com/in/batterywala-bhau-7222232b7/" className="text-gray-600 hover:text-blue-700 transition-colors duration-300">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </div>
           </div>
+        </div>
+
+        {/* Developer Badge */}
+        <div className="flex justify-center mt-8">
+          <DeveloperBadge photoSrc="/path/to/your/badge-image.png" /> {/* Add DeveloperBadge here */}
         </div>
 
         {/* Copyright */}

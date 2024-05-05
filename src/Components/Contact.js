@@ -53,9 +53,9 @@ const Contact = () => {
               We are also available on social media platforms:
             </Typography>
             <div className="flex items-center mt-3">
-              <SocialIcon icon={faFacebook} link="https://www.facebook.com/" />
-              <SocialIcon icon={faInstagram} link="https://www.instagram.com/" />
-              <SocialIcon icon={faLinkedin} link="https://www.linkedin.com/" />
+              <SocialIcon icon={faFacebook} link="https://www.facebook.com/profile.php?id=61556464873898&sk=about" />
+              <SocialIcon icon={faInstagram} link="https://www.instagram.com/batterywalabhau/" />
+              <SocialIcon icon={faLinkedin} link="https://www.linkedin.com/in/batterywala-bhau-7222232b7/" />
             </div>
           </Grid>
         </Grid>
