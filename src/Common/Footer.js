@@ -9,7 +9,7 @@ import ContactsIcon from "@mui/icons-material/Contacts";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
-import DeveloperBadge from '../Components/DeveloperBadge'; // Import the DeveloperBadge component
+ // Import the DeveloperBadge component
 
 function Footer() {
   return (
@@ -76,11 +76,6 @@ function Footer() {
               </a>
             </div>
           </div>
-        </div>
-
-        {/* Developer Badge */}
-        <div className="flex justify-center mt-8">
-          <DeveloperBadge photoSrc="/path/to/your/badge-image.png" /> {/* Add DeveloperBadge here */}
         </div>
 
         {/* Copyright */}
