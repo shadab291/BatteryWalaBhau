@@ -17,7 +17,7 @@ export default class About extends Component {
         <Typography variant="h1" component="h1" className="text-4xl text-center mb-8">
             About
           </Typography>
-          <Typography variant="body1" component="p" className="text-lg mb-8">
+          <Typography variant="body1" component="p" className="text-lg text-black mb-8">
             Battery Wala Bhau is a trusted name in the energy solutions industry, dedicated to providing reliable and sustainable power solutions for individuals and businesses. With years of experience and a commitment to innovation, we offer a wide range of products and services tailored to meet the diverse needs of our customers.
           </Typography>
           <Spring
