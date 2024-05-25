@@ -82,14 +82,14 @@ function Homepage() {
     <div className="bg-gray-100 min-h-screen">
       <Container style={{ backgroundImage: `url(${bgimage})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor:'rgba(255, 255, 255,0)' }} className="py-20">
         <h1 className="mt-2"><AnimatedText/></h1>
-        <Typography variant="h1" component="h1" className="text-2xl text-center mb-8  ">
+        <Typography variant="h1" component="h1" className="text-2xl text-center mb-8 text-black  ">
           Battery Wala Bhau
         </Typography>
         <motion.div
       initial={{ opacity: 0, y: 20 }} // Initial animation state (opacity: 0, y: 20)
       animate={{ opacity: 1, y: 0 }} // Animation to (opacity: 1, y: 0)
       transition={{ duration: 2 }} // Animation duration
-      className="text-lg text-center p-2 mb-8"
+      className="text-lg text-black text-center p-2 mb-8"
     >
       "Fueling Your Everyday Journey with Reliable Energy Solutions, Powering Possibilities!"
     </motion.div>
