@@ -3,17 +3,20 @@ import { Link } from "react-router-dom";
 import DesignServicesIcon from "@mui/icons-material/DesignServices";
 import InfoIcon from "@mui/icons-material/Info";
 import ContactsIcon from "@mui/icons-material/Contacts";
-import sharingon from "../Media/BWB_LOGO_prev_ui.png";
 import Hamburger from "hamburger-react";
+import sharingon from "../Media/BWB_LOGO_prev_ui.png";
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div>
+    <div className="fixed top-0 w-full z-50">
+      {/* Desktop Navbar */}
       <div className="flex rounded-none justify-between pr-2 pl-4 mt-0 shadow-md bg-blue-300 h-16 hidden md:flex bg-blue-300">
         <div className="flex items-center">
-        <Link to="/"><img className="w-40 mr-2 color-white" src={sharingon} alt="" /></Link>  
+          <Link to="/">
+            <img className="w-40 mr-2 color-white" src={sharingon} alt="" />
+          </Link>
         </div>
         <div className="flex space-x-10 text-white mt-4">
           <div className="hover:text-orange-500">
@@ -30,11 +33,15 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="flex rounded-none justify-between items-center bg-blue-300 xl:hidden flex lg:hidden md:hidden flex xl:hidden flex 2xl:hidden flex">
-        <Link to="/"><img className="w-40 mr-2 color-white" src={sharingon} alt="" /></Link> 
-        <div className="flex justify-between text-2xl font-bold  text-white hover:text-orange-500"></div>
-          <div className="relative mt-5 text-white" align="right">
+      
+      {/* Mobile Navbar */}
+      <div className="overflow-y-auto">
+        <div className="flex rounded-none w-full h-20 justify-between items-center bg-blue-300 xl:hidden flex lg:hidden md:hidden flex xl:hidden flex 2xl:hidden flex">
+          <Link to="/">
+            <img className="w-40 mr-2 color-white" src={sharingon} alt="" />
+          </Link>
+          <div className="flex justify-between text-2xl font-bold  text-white hover:text-orange-500"></div>
+          <div className="relative mt-5 mr-9 text-white" align="right">
             <Hamburger toggled={isOpen} toggle={setOpen} size={22} direction="right" />
           </div>
         </div>{" "}
@@ -60,7 +67,7 @@ export default function Navbar() {
             </li>
           </ul>
         )}
-        <hr></hr>
+        <hr className="text-red-800 " ></hr>
       </div>
     </div>
   );

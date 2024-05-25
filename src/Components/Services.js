@@ -73,12 +73,12 @@ const ServiceComponents = () => {
       />
       <ServiceComponent
         title="JUMP Start"
-        description="Our JUMP Start service provides quick assistance to start your vehicle when your battery is low or dead. Our skilled technicians will promptly arrive at your location equipped with the necessary tools to jump-start your vehicle, getting you back on the road in no time."
+        description="Our JUMP Start service provides quick assistance to start your vehicle when your battery is low or dead. Our skilled technicians will promptly arrive at your location equipped with the necessary tools to jump-start your vehicle."
         imageUrl={serv4}
       />
       <ServiceComponent
         title="Battery Repairing"
-        description="If your battery is experiencing issues such as poor performance or failure to hold a charge, our Battery Repairing service is here to help. Our experienced technicians will diagnose the problem and perform the necessary repairs to restore your battery's functionality."
+        description="If your battery is experiencing issues such as poor performance or failure to hold a charge, our Battery Repairing service is here to help. Our experienced technicians will diagnose the problem and perform the necessary repairs."
         imageUrl={serv3}
       />
       <ServiceComponent
@@ -87,8 +87,8 @@ const ServiceComponents = () => {
         imageUrl={serv2}
       />
       <ServiceComponent
-        title="Battery Testing And Maintenance (Services)"
-        description="Our comprehensive Battery Testing and Maintenance service assesses the condition of your battery to ensure optimal performance. Depending on the battery's condition, our technicians will conduct thorough testing and provide maintenance services to prolong its lifespan and prevent future issues."
+        title="Battery Testing (Services)"
+        description="Our comprehensive Battery Testing and Maintenance service assesses the condition of your battery to ensure optimal performance. Depending on the battery's condition, our technicians will conduct thorough testing.."
         imageUrl={serv5}
       />
       <ServiceComponent

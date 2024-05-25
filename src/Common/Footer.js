@@ -9,7 +9,7 @@ import ContactsIcon from "@mui/icons-material/Contacts";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
- // Import the DeveloperBadge component
+
 
 function Footer() {
   return (
